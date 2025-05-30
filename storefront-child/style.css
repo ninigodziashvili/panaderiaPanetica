@@ -1,0 +1,47 @@
+/*
+Theme Name: Storefront Child
+Template: storefront
+Version: 1.0
+*/
+
+.posted-on, .post-author, .post-author, .post-comments {
+    display: none;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.site-header {
+    background-color: rgb(98, 126, 98);
+
+}
+
+.site-header .col-full a {
+    color: white
+}
+
+.site-header .col-full p {
+    color: white
+}
+
+.site-footer {
+    background-color: rgb(138, 132, 132);
+    color: white;
+}
+
+#colophon a{
+    color: white;
+}
+
+.storefront-breadcrumb {
+    display: none;
+}
+
+.entry-title {
+   display: none;
+}
+
+.storefront-primary-navigation a:active {
+    color: white;
+}
