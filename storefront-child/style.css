@@ -23,6 +23,19 @@ body, html {
     background-color: antiquewhite;
 }
 
+.col-full a {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: none;
+}
+
+.wp-block-heading {
+   text-decoration: none;
+}
+
 .site-header {
     background-color: rgb(98, 126, 98);
 
