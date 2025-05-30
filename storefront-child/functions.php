@@ -10,16 +10,3 @@ function my_function_admin_bar(){
 }
 add_filter( 'show_admin_bar' , 'my_function_admin_bar');
 
-
-function custom_reorder_woocommerce_account_menu_items( $items ) {
-    $new_items = array(
-        'orders'          => $items['orders'],
-        'dashboard'       => $items['dashboard'],
-        'downloads'       => $items['downloads'],
-        'edit-address'    => $items['edit-address'],
-        'payment-methods' => $items['payment-methods'],
-        'customer-logout' => $items['customer-logout'],
-    );
-    return $new_items;
-}
-add_filter( 'woocommerce_account_menu_items', 'custom_reorder_woocommerce_account_menu_items' );
