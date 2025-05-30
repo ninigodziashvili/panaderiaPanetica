@@ -167,3 +167,11 @@ footer {
   line-height: 1.8;
   color: #333;
 }
+
+.woocommerce-products-header {
+    display: none;
+}
+
+.storefront-sorting {
+    margin-top: 2em;
+}
