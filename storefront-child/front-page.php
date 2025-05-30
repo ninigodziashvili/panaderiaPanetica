@@ -9,4 +9,14 @@
   </div>
 </section>
 
+<section class="about-section">
+  <div class="about-content">
+    <h2 class="about-title">Sobre Nosotros</h2>
+    <p class="about-text">
+      En Pan Natural, creemos en el poder de los ingredientes puros. Cada pieza de pan es horneada con dedicación, utilizando recetas tradicionales y productos 100% orgánicos. Nuestro compromiso es ofrecer un sabor auténtico que nutre tanto el cuerpo como el alma.
+    </p>
+  </div>
+</section>
+
+
 <?php get_footer(); ?>
