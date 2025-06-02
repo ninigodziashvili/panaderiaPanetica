@@ -5,81 +5,85 @@ Version: 1.0
 */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .posted-on,
 .post-author,
 .post-author,
 .post-comments {
-    display: none;
+  display: none;
 }
 
-body, html {
-    height: 100%;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: antiquewhite;
+body,
+html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: antiquewhite;
 }
 
 .col-full a {
-    color: black;
+  color: black;
 }
 
 h2 {
-    text-align: center;
-    text-decoration: none;
+  text-align: center;
+  text-decoration: none;
 }
 
 .wp-block-heading {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .site-header {
-    background-color: rgb(98, 126, 98);
+  background-color: rgb(98, 126, 98);
 
 }
 
 .site-header .col-full a {
-    color: white
+  color: white
 }
 
 .site-header .col-full p {
-    color: white
+  color: white
 }
 
 .site-footer {
-    background-color: rgb(138, 132, 132);
-    color: white;
-    text-align: center;
-    height: 25em;
+  background-color: rgb(138, 132, 132);
+  color: white;
+  text-align: center;
+  height: 25em;
 }
 
 #colophon a {
-    color: white;
+  color: white;
 }
 
 .storefront-breadcrumb {
-    display: none;
+  display: none;
 }
 
 .entry-title {
-    display: none;
+  display: none;
 }
 
 .storefront-primary-navigation a:active {
-    color: white;
+  color: white;
 }
 
 #menu-header-menu li a {
-    color: white;
-    text-decoration: none; /* no underline by default */
+  color: white;
+  text-decoration: none;
+  /* no underline by default */
 }
 
-#menu-header-menu li.current-menu-item > a {
-    color: white; /* keep white */
-    text-decoration: underline; /* underline only active */
+#menu-header-menu li.current-menu-item>a {
+  color: white;
+  /* keep white */
+  text-decoration: underline;
+  /* underline only active */
 }
 
 .hero-section {
@@ -105,14 +109,15 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(73, 73, 73, 0.5); /* semi-transparent black */
+  background-color: rgba(73, 73, 73, 0.5);
+  /* semi-transparent black */
   z-index: 1;
 }
 
 .hero-content {
   position: relative;
   z-index: 2;
- width: 2000px;
+  width: 2000px;
   padding: 20px;
 }
 
@@ -140,13 +145,14 @@ h2 {
 }
 
 .hero-button:hover {
-  background-color: #e2bc9d; /* example hover color */
+  background-color: #e2bc9d;
+  /* example hover color */
   color: white;
 }
 
 footer {
-    margin-top: 5em;
-    font-size: 20px;
+  margin-top: 5em;
+  font-size: 20px;
 }
 
 .about-section {
@@ -162,7 +168,8 @@ footer {
 .about-title {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #5c4033; /* rich brown for title */
+  color: #5c4033;
+  /* rich brown for title */
 }
 
 .about-text {
@@ -172,11 +179,11 @@ footer {
 }
 
 .woocommerce-products-header {
-    display: none;
+  display: none;
 }
 
 .storefront-sorting {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 .footer-widgets {
@@ -362,7 +369,8 @@ footer {
 
 .contact_us_6 .submit-btn {
   width: 98%;
-  background-color: #e2bc9d;;
+  background-color: #e2bc9d;
+  ;
   height: 60px;
   font-size: 20px;
   font-weight: 700;
@@ -728,7 +736,6 @@ footer {
 #reg_login {
   position: relative;
   min-height: 100vh;
-  /* background-color: #f8dd30; */
   background-image: url(https://www.shutterstock.com/image-photo/empty-wooden-table-top-focus-600nw-2393609289.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -900,8 +907,8 @@ footer {
 }
 
 .menu-logo img {
-    max-height: 50px;
-    vertical-align: middle;
+  max-height: 50px;
+  vertical-align: middle;
 }
 
 .site-branding {
@@ -911,4 +918,120 @@ footer {
 .site-title {
   color: white;
   font-weight: bold;
+}
+
+.site-description {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.site-header-cart .custom-cart-item a {
+    color: #0073aa;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.site-header-cart .custom-cart-item a:hover {
+    color: #005177;
+    text-decoration: underline;
+}
+
+
+p strong {
+  display: none;
+}
+
+.band {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+@media (min-width: 30em) {
+  .band {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 60em) {
+  .band {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  background: white;
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+
+  /* sets up hover state */
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease-in;
+}
+
+.card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+
+.card article {
+  padding: 20px;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.card p {
+  flex: 1;
+  line-height: 1.4;
+}
+
+.card span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 2em 0 0 0;
+}
+
+.card .thumb {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 60em) {
+  .item-1 {
+    grid-column: 1 / span 2;
+  }
+  .item-1 h1 {
+    font-size: 24px;
+  }
 }

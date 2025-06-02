@@ -6,8 +6,8 @@
  *
  * @package storefront
  */
-?>
-<!doctype html>
+
+?><!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -46,9 +46,7 @@
 		 * @hooked storefront_primary_navigation_wrapper_close - 68
 		 */
 		do_action( 'storefront_header' );
-        
 		?>
-
 
 	</header><!-- #masthead -->
 
