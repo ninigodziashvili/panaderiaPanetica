@@ -68,14 +68,12 @@ function anadir_mi_cuenta_y_carrito_header_storefront() {
 
         echo '<div class="mi-cuenta-custom" style="margin-left:auto; display:flex; gap:20px; align-items:center;">';
 
-        // ✅ New My Account icon (modern circular profile)
         echo '<a href="' . esc_url( $my_account_url ) . '" title="Mi Cuenta" style="text-decoration:none;">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white">
                 <path d="M12 12c2.7 0 4.9-2.2 4.9-4.9S14.7 2.2 12 2.2 7.1 4.4 7.1 7.1 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.6h19.2v-2.6c0-3.2-6.4-4.8-9.6-4.8z"/>
             </svg>
         </a>';
 
-        // ✅ New Cart icon (modern cart with handle and wheels)
         echo '<a href="' . esc_url( $cart_url ) . '" title="Carrito" class="header-cart-link" style="position:relative; text-decoration:none;">';
         echo '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24">
                 <path d="M7 18c-1.104 0-1.99.896-1.99 2S5.896 22 7 22s2-.896 2-2-.896-2-2-2zm10 0c-1.104 0-1.99.896-1.99 2s.886 2 1.99 2 2-.896 2-2-.896-2-2-2zM7.16 14l.86-2h8.169c.74 0 1.384-.403 1.725-1.028l3.734-6.972L20.02 2H5.21l-.94-2H0v2h2l3.6 7.59-1.35 2.44C3.52 13.37 4.48 15 6 15h12v-2H7.16z"/>
