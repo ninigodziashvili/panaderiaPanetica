@@ -52,6 +52,8 @@ h2 {
 .site-footer {
     background-color: rgb(138, 132, 132);
     color: white;
+    text-align: center;
+    height: 25em;
 }
 
 #colophon a {
@@ -144,6 +146,7 @@ h2 {
 
 footer {
     margin-top: 5em;
+    font-size: 20px;
 }
 
 .about-section {
@@ -174,4 +177,11 @@ footer {
 
 .storefront-sorting {
     margin-top: 2em;
+}
+
+.footer-widgets {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
 }
