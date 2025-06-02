@@ -6,7 +6,7 @@
     <h1 class="hero-title">Pan Natural</h1>
     <p class="hero-subtitle">Hecho con ingredientes 100% orgánicos y amor artesanal</p>
 
-<button class="hero-button" onclick="window.location.href='contact.php';">Contacta Nos</button>
+    <a href="contact.php" class="hero-button">Contacta Nos</a>
 
   </div>
 </section>
