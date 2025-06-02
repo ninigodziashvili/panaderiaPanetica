@@ -26,8 +26,7 @@
 			 */
 			do_action( 'storefront_footer' );
 			?>
-<p>Pan sin gluten hecho con ingredientes naturales y mucho cariño.</p>
-<p>¡Gracias por apoyarnos!</p>
+<p>Pan sin gluten, sano, sabroso y hecho con el corazón</p>
 
 		</div><!-- .col-full -->
 	</footer><!-- #colophon -->
