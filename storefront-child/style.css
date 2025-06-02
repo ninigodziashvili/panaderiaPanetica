@@ -1039,7 +1039,9 @@ p strong {
 .storefront-primary-navigation a:focus,
 .storefront-primary-navigation a:active,
 #menu-header-menu li a:focus,
-#menu-header-menu li a:active {
+#menu-header-menu li a:active,
+.site-branding-One a:focus,
+.hero-button:focus {
   background-color: transparent !important;
   outline: none !important;
   color: white !important;
